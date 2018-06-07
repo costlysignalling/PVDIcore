@@ -81,10 +81,10 @@ abline(v=first.opt, lwd=2, col="#00CC00")
 text(x=gens/30, y=c(1.1,1,0.9),adj=0, c(expression(paste(nu)),expression(paste(s)),expression(paste(N))))
 text(x=gens/30+4, y=c(1.1,1,0.9),adj=0, c(paste("=",ni),paste("=",selecta),paste("=",pop.size)))
 
-#If you want to plot a legent, just destroy the hashtags
+#If you want to plot a legend, just destroy the hashtags
 
 #legend(x=gens/2.8,y=0.4,
-#	c("Mean trait value","±2 standard deviations","Coefficient of variation","First individual reaches the optimum"),
+#	c("Mean trait value","Â±2 standard deviations","Coefficient of variation","First individual reaches the optimum"),
 #	lwd=2, col=c("#FF0000","#FF6666","#0000FF","#00CC00"))
 }
 
